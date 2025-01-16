@@ -10,7 +10,7 @@ noButton.addEventListener('click', () => {
   noButton.style.top = `${randomY}px`;
   if (noClicks == 5) {
     const message = document.createElement('p');
-    message.textContent = 'You clicked "No" 5 times!';
+    message.textContent = 'Qual foi man aperta no sim ai';
     message.style.position = 'absolute';
     message.style.top = `${screenHeight / 2 + 50}px`;
     message.style.left = `${screenWidth / message.offsetWidth / 2}px`;
@@ -29,7 +29,7 @@ yesButton.addEventListener('click', () => {
   document.body.style.backgroundSize = 'cover';
   const message = document.querySelector('p');
   const helloWorld = document.querySelector('.text i');
-   helloWorld.textContent = 'Welcome to Replit!'; 
+   helloWorld.textContent = 'Sua resposta foi enviada com sucesso!!1!1!  (tbm te amo meu bem)'; 
    helloWorld.style.color = 'white';
   if (message) {
     message.style.display = 'none';
