@@ -25,7 +25,7 @@ const yesButton = document.querySelector('button:nth-child(1)');
 yesButton.addEventListener('click', () => {
   yesButton.style.display = 'none';
   noButton.style.display = 'none';
-  document.body.style.backgroundImage = 'url("https://estaticos-cdn.sport.es/clip/76c64098-8ca0-44eb-b6b3-aa049f7b687b_16-9-aspect-ratio_default_0.jpg")';
+  document.body.style.backgroundImage = 'url("https://th.bing.com/th/id/R.00effcd821ef99d00d468e1e2944a83a?rik=al9s4ou20dZizQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fLhoxSBy.jpg&ehk=x8hGDgoWgUNi2ALw2b2jji1fv8OVjV3VNSai7laUTpw%3d&risl=&pid=ImgRaw&r=0")';
   document.body.style.backgroundSize = 'cover';
   const message = document.querySelector('p');
   const helloWorld = document.querySelector('.text i');
