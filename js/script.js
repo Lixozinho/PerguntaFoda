@@ -30,7 +30,7 @@ yesButton.addEventListener('click', () => {
   const message = document.querySelector('p');
   const helloWorld = document.querySelector('.text i');
    helloWorld.textContent = 'Sua resposta foi enviada com sucesso!!1!1!  (tbm te amo meu bem)'; 
-   helloWorld.style.color = 'white';
+   helloWorld.style.color = 'black';
   if (message) {
     message.style.display = 'none';
   }
